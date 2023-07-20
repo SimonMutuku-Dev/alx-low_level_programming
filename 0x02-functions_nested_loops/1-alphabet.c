@@ -6,7 +6,7 @@
  * Return: 0 if true, others if not
  */
 
-int print_alphabet(char c)
+int print_alphabet(char c);
 {
 	for (c = 'a'; c <= 'z'; c++)
 	{
