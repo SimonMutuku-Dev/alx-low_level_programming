@@ -5,7 +5,7 @@
  * Return: 0 if true, others if not
  */
 
-int main(void)
+int main(void);
 {
 _putchar('_');
 _putchar('p');
