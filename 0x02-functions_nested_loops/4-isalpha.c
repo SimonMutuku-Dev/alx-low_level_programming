@@ -10,6 +10,7 @@
 
 int _isalpha(int c)
 {
+	a = (int)c;
 	while (c = a)
 	{
 		if (c == a && c <= z)

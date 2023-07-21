@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 
 /**
@@ -17,9 +17,8 @@ void print_alphabet_x10(void)
 	{
 		while (n <= 10)
 		{
-		putchar(c);
-		putchar('\n');
+		_putchar(c);
+		_putchar('\n');
 		}
 	}
-return (0);
 }
