@@ -8,20 +8,22 @@
  * Return: 1 if true, 0 if otherwise
  */
 
-int _isalpha(char c, int n)
+int _isalpha(int c)
 {
-	n = c - '0';
+	while (c = a)
+	{
+		if (c == a && c <= z)
+		{
+			return (1);
+		}
+	}
+	while (c = A)
+	{
+		if (n >= A && n <= Z)
+		{
+			return (1);
+		}
 
-		if (n == 97 && n <= 122)
-		{
-			return (1);
-		}
-		else if (n >= 65 && n <= 90)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+	}
+return (0);
 }

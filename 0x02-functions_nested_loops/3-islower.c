@@ -8,11 +8,11 @@
  *   * Return: 1 if true, 0 if otherwise
  */
 
-int _islower(char c, int n)
+int _islower(int c)
 {
-	n = c - '0';
+	c = a;
 
-	if (n == 97 && n <= 122)
+	if (c == a && c <= z)
 	{
 		return (1);
 	}

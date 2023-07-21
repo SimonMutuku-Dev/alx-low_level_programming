@@ -8,15 +8,17 @@
  * Return: 0 if true, others if not
  */
 
-int print_alphabet_x10(char c, int n)
+void print_alphabet_x10(void)
 {
+	char c;
+	int n;
 	n = 0;
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		while (n <= 10)
 		{
-		_putchar(c);
-		_putchar('\n');
+		putchar(c);
+		putchar('\n');
 		}
 	}
 return (0);
