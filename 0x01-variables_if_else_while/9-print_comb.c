@@ -2,22 +2,21 @@
 #include <stdlib.h>
 
 /**
- * main - prints base 16 in lowercase
+ * main - Prints all single-digit combinations
  * Return: 0 if true, others if not
  */
 
 int main(void)
 {
 int n;
-char c;
-
-for (n = '0'; n <= '9'; n++)
+for (n = 48; n <= 58; n++)
 {
 	putchar(n);
-}
-for (c = 'a'; c <= 'f'; c++)
-{
-	putchar(c);
+	if (n != 57)
+	{
+		putchar(',');
+		putchar(' ');
+	}
 }
 
 putchar('\n');

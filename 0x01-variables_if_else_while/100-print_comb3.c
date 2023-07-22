@@ -11,11 +11,22 @@ int main(void)
 int t;
 int d;
 
-for (t = 0; t <= 9; t++)
+for (t = 48; t <= 56; t++)
 {
-	for (d = 0; d <= 9; d++)
+	for (d = 49; d <= 57; d++)
 	{
-		if (t == d)
+		if (d > t)
 		{
 			putchar(t);
 			putchar(d);
+			if (t != 56 || d != 57)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}	
+	}
+}
+putchar('\n');
+return (0);
+}
