@@ -24,7 +24,7 @@ for (t = 48; t <= 56; t++)
 				putchar(',');
 				putchar(' ');
 			}
-		}	
+		}
 	}
 }
 putchar('\n');

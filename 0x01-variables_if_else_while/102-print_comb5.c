@@ -21,19 +21,19 @@ int main(void)
 					{
 						for (p = 48; p < 58; p++)
 						{
-							if (p > o)
-							{
-								putchar(m);
-								putchar(n);
-								putchar(' ');
-								putchar(o);
-								putchar(p);
-								if (o != 56 || p != 57 || m != 57 || n != 57)
-								{
-									putchar(',');
-									putchar(' ');
-								}
-							}
+						if (p > o)
+						{
+						putchar(m);
+						putchar(n);
+						putchar(' ');
+						putchar(o);
+						putchar(p);
+						if (o != 56 || p != 57 || m != 57 || n != 57)
+						{
+						putchar(',');
+						putchar(' ');
+						}
+						}
 						}
 					}
 				}
@@ -41,6 +41,6 @@ int main(void)
 		}
 	}
 
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }

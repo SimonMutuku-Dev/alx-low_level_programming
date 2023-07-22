@@ -5,7 +5,7 @@
  * Return: 0 if success, others if not
  */
 
-int main()
+int main(void)
 {
 	int n;
 	int o;
@@ -26,8 +26,8 @@ int main()
 						putchar(p);
 						if (n != 55 || o != 56 || p != 57)
 						{
-								putchar(',');
-									putchar(' ');
+							putchar(',');
+							putchar(' ');
 						}
 					}
 				}
@@ -35,6 +35,6 @@ int main()
 		}
 	}
 
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }
