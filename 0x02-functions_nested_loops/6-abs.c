@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _abs - computes the absolute integer values
+ * @n: integer to process
+ * Return: integer absolute
+ */
+
 int _abs(int n)
 {
 	if (n < 0)
@@ -12,3 +18,4 @@ int _abs(int n)
 	}
 return (0);
 }
+

@@ -9,12 +9,13 @@
 
 int _islower(int c)
 {
-	if (c >= 48 || c <= 58)
+	if (c >= 48 && c <= 58)
 	{
 		return (1);
 	}
-	else
+	else if (c <=48 || c >= 58)
 	{
 		return (0);
 	}
 }
+

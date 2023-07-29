@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * times_table - prints the times table up to 9
+ */
+
 void times_table(void)
 {
 	int m, n, y;
@@ -38,3 +42,4 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
+

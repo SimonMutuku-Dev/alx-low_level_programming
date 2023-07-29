@@ -1,15 +1,19 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * _isalpha - checks for alphabets
+ * @c: character to check
+ * Return: 1 if true, 0 if others
+ */ 
+
 int _isalpha(int c)
 {
-	c = 'U';
-
-	if (c >= 97 || c <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
-	else if (c >= 65 || c <= 90)
+	else if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
@@ -18,3 +22,4 @@ int _isalpha(int c)
 		return (0);
 	}
 }
+
