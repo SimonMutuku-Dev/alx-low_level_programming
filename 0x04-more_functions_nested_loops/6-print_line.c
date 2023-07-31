@@ -3,12 +3,11 @@
 /**
  * print_line - draws a straight line in the terminal
  * @n: the number of times the character _ should be printed
- * Return: void
  */
 
 void print_line(int n)
 {
-	int i;
+	int i = 0;
 
 	while (i <= n)
 	{
@@ -17,3 +16,4 @@ void print_line(int n)
 	}
 	_putchar('\n');
 }
+
